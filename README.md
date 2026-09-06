@@ -238,68 +238,20 @@ The CAD model shows the mechanical design of the robot.
 
 ## Bill of Materials
 
-A full BOM is available in:
+A full BOM is in:
 
 [`bom.csv`](bom.csv)
 
-| Components Quantity | Purchase link |
 
-| --- | --- | --- |
+##  Components
 
-| ESP32 DOIT DevKit V1 | 1 | [Robu.in Link](https://robu.in/product/wroom-32-esp32-wifi-bt-ble-mcu-module/) |
-
-| GY-9250 / MPU-9250 | 1 | [Robokits Link](https://robokits.co.in/sensors/gyroscope-and-inertial-imu/9dof-3-axis-accelerometer-gyroscope-magnetometer-gy-9250?srsltid=AfmBOopiH0Up3o8P3-oHTvJcObh-OI1lNOijdAXyQr8ByRqUDNTo8jB7DdQ)
-
-| BTS7960 / IBT-2 | 2 | [Robu.in Link](https://robu.in/product/bts7960-43a-h-bridge-high-power-stepper-motor-driver-module/)
-
-| 12V DC Gear Motor | 2 | [Robocraze Link](https://robocraze.com/products/200-geared-motor?variant=40192492601497&country=IN¤cy=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopKAbyO-XIRKLJx-OmosgXKJial2h5KzaEtUzNf0ObJwdZQ6by-A0U) |
-
-| Wheels | 2 | [Robomart Link](https://robomart.com/product/5x2-wheel-robotic-tyre-for-robotics-diy-for-dc-gear-motor-5x2-cm/?srsltid=AfmBOoqEX9lZ8_wr8UwCeNvzkUKPLWCdvC01yqPme6XPvA1c9YBfUza4lSY)
-
-| 12V Battery | 1 | [Electronicspices Link](https://electronicspices.com/product/18650-2600mah-3-65v-lithium-ion-cell?srsltid=AfmBOorxf52YEWnK8CLL8YlFW5W6aVtw5Zjrw4-55JQey9dv0Gju4ACj2Q8) |
-
-12V → 5V Buck Converter | 1 | [RajivElectronics Link](https://rajivelectronics.com/product/lm2596-dc-dc-buck-converter-step-, down-module?srsltid=AfmBOoryoWfYvhn5YVpWpyPrIyInsibDxFsjgWKL2nmv9f-ZqJS0QHG6Jwc) |
-
-| 3D printed chassis | 1 |. |
-
-## Repository Structure
-
-```text
-
-.
-
-├── README.md
-
-├── bom.csv
-
-├── cad
-
-│  ├── self balancing.f3z
-
-│  └── self balancing.step
-
-├── firmware
-
-│  └── main.cpp
-
-├── image
-
-│  ├── balancing.png
-
-│  ├── circuit.png
-
-│  └── standing.png
-
-└── video
-
-├── testing
-
-│  ├── video-f-1.mp4
-
-│  └── video-f-2.mp4
-
-└── working
-
-└── video-w-1.mp4
-
-```
+| Components                   | Quantity | Purchase Link                                                                                                                                                                                                                                                                   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ESP32 DOIT DevKit V1         | 1        | [Robu.in Link](https://robu.in/product/wroom-32-esp32-wifi-bt-ble-mcu-module/)                                                                                                                                                                                                  |
+| GY-9250 / MPU-9250           | 1        | [Robokits Link](https://robokits.co.in/sensors/gyroscope-and-inertial-imu/9dof-3-axis-accelerometer-gyroscope-magnetometer-gy-9250?srsltid=AfmBOopiH0Up3o8P3-oHTvJcObh-OI1lNOijdAXyQr8ByRqUDNTo8jB7DdQ)                                                                         |
+| BTS7960 / IBT-2 Motor Driver | 2        | [Robu.in Link](https://robu.in/product/bts7960-43a-h-bridge-high-power-stepper-motor-driver-module/)                                                                                                                                                                            |
+| 12V DC Gear Motor            | 2        | [Robocraze Link](https://robocraze.com/products/200-geared-motor?variant=40192492601497&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopKAbyO-XIRKLJx-OmosgXKJial2h5KzaEtUzNf0ObJwdZQ6by-A0U) |
+| Wheels                       | 2        | [Robomart Link](https://robomart.com/product/5x2-wheel-robotic-tyre-for-robotics-diy-for-dc-gear-motor-5x2-cm/?srsltid=AfmBOoqEX9lZ8_wr8UwCeNvzkUKPLWCdvC01yqPme6XPvA1c9YBfUza4lSY)                                                                                             |
+| 18650 Li-ion Battery         | 3        | [Electronicspices Link](https://electronicspices.com/product/18650-2600mah-3-65v-lithium-ion-cell?srsltid=AfmBOorxf52YEWnK8CLL8YlFW5W6aVtw5Zjrw4-55JQey9dv0Gju4ACj2Q8)                                                                                                          |
+| 12V → 5V Buck Converter      | 1        | [RajivElectronics Link](https://rajivelectronics.com/product/lm2596-dc-dc-buck-converter-adjustable-step-down-module?srsltid=AfmBOoryoWfYvhn5YVpWpyPrIyInsibDxFsjgWKL2nmv9f-ZqJS0QHG6Jwc)                                                                                       |
+| 3D Printed Chassis           | 1        | Custom design included in the [`cad`](cad/) folder                                                                                                                                                                                                                              |
