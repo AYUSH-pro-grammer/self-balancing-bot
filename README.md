@@ -1,4 +1,4 @@
-# Self-Balancing Robot 🤖
+# Self Balancing Robot 
 
 This is a built two-wheeled robot which balances itself using an ESP32 and MPU-9250 IMU sensor and two IBT-2 motor drivers
 
