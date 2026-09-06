@@ -1,0 +1,9 @@
+Item,Quantity,Description,Unit Cost (INR),Total Cost (INR),Purchase Link
+ESP32 1,1.0,Main microcontroller,500.0,500.0,https://robu.in/product/esp-wroom-32-esp32-wifi-bt-ble-mcu-module/
+GY-9250 MPU-9250,1.0,9-axis IMU,350.0,350.0,https://robokits.co.in/sensors/gyroscope-and-inertial-imu/9dof-3-axis-accelerometer-gyroscope-magnetometer-gy-9250?srsltid=AfmBOopiH0Up3o8P3-oHTvJcObh-OI1lNOijdAXyQr8ByRqUDNTo8jB7DdQ
+BTS7960 IBT-2 Motor Driver,2.0,High current DC motor driver,350.0,700.0,https://robu.in/product/double-bts7960-43a-h-bridge-high-power-stepper-motor-driver-module/
+12V DC Gear Motor,2.0,Drive motor,150.0,300.0,https://robocraze.com/products/200-rpm-geared-motor?variant=40192492601497&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopKAbyO-XIRKLJx-OmosgXKJial2h5KzaEtUzNf0ObJwdZQ6by-A0U
+Wheels,2.0,Wheels for drive motors,60.0,120.0,https://robomart.com/product/5x2-wheel-robotic-tyre-for-robotics-diy-for-dc-gear-motor-5x2-cm/?srsltid=AfmBOoqEX9lZ8_wr8UwCeNvzkUKPLWCdvC01yqPme6XPvA1c9YBfUza4lSY
+3.7V Battery 18650,3.0,Main power source,129.0,387.0,https://electronicspices.com/product/18650-2600mah-3-65v-cylindrical-lithium-ion-cell?srsltid=AfmBOorxf52YEWnK8CLL8YlFW5W6aVtw5Zjrw4-55JQey9dv0Gju4ACj2Q8
+12V to 5V Buck Converter,1.0,Logic power converter,60.0,60.0,https://rajivelectronics.com/product/lm2596-dc-dc-buck-converter-adjustable-step-down-module?srsltid=AfmBOoryoWfYvhn5YVpWpyPrIyInsibDxFsjgWKL2nmv9f-ZqJS0QHG6Jwc
+TOTAL,,,,2417.0,
