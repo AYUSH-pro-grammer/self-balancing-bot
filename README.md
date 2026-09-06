@@ -43,6 +43,10 @@ I wanted to build a project that combines design, electronics, sensors, motor co
 
 ![Circuit diagram](image/circuit.png)
 
+## Cad
+
+![Cad Image](image/cad.png)
+
 ### MPU-9250 → ESP32
 
 | MPU-9250 | ESP32   |
