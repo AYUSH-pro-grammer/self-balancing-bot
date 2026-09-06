@@ -26,27 +26,18 @@ I wanted to build a project that combines design, electronics, sensors, motor co
 
 ## Hardware
 
-| Component | Qty |
+| Component                    |   Quantity |
+| ---------------------------- | ----: |
+| ESP32 DOIT DevKit V1         |     1 |
+| GY-9250 / MPU-9250 IMU       |     1 |
+| BTS7960 / IBT-2 Motor Driver |     2 |
+| 12V DC Gear Motor            |     2 |
+| Wheels                       |     2 |
+| 18650 Li-ion Battery         |     3 |
+| 12V → 5V Buck Converter      |     1 |
+| Custom 3D-Printed Chassis    |     1 |
+| Wiring and Connectors        | 1 set |
 
-| --- | ---: |
-
-ESP32 DOIT DevKit V1 | 1 |
-
-| GY-9250 / MPU-9250 IMU | 1 |
-
-| BTS7960 / IBT-2 Motor Driver | 2 |
-
-12V DC Gear Motor | 2 |
-
-| Wheels 2 |
-
-| 12V Battery 1 |
-
-| 12V → 5V Buck Converter | 1 |
-
-| Custom chassis | 1 |
-
-| Wiring and connectors | 1 set |
 
 ## Wiring
 
@@ -54,59 +45,43 @@ ESP32 DOIT DevKit V1 | 1 |
 
 ### MPU-9250 → ESP32
 
-| MPU-9250 | ESP32 |
-
-| --- | --- |
-
-VCC | 3.3V |
-
-| GND | GND |
-
-| SDA GPIO 21 |
-
-| SCL | GPIO 22 |
+| MPU-9250 | ESP32   |
+| -------- | ------- |
+| VCC      | 3.3V    |
+| GND      | GND     |
+| SDA      | GPIO 21 |
+| SCL      | GPIO 22 |
 
 The MPU-9250 communicates via I²C at address `0x68`.
 
+
 ### Motor Driver #1 → ESP32
 
-IBT-2 Pin | ESP32 |
-
-| --- | ---
-
-| RPWM | GPIO 25 |
-
-LPWM | GPIO 26 |
-
-| R_EN | GPIO 27 |
-
-L_EN | GPIO 13 |
-
-| GND | GND |
-
-| VCC | 5V |
+| IBT-2 Pin | ESP32   |
+| --------- | ------- |
+| RPWM      | GPIO 25 |
+| LPWM      | GPIO 26 |
+| R_EN      | GPIO 27 |
+| L_EN      | GPIO 13 |
+| GND       | GND     |
+| VCC       | 5V      |
 
 Motor 1 connects to `M+` and `M-`.
 
 ### Motor Driver #2 → ESP32
 
-| IBT-2 Pin | ESP32 |
-
-| --- | ---
-
-| RPWM | GPIO 32 |
-
-LPWM | GPIO 33 |
-
-R_EN | GPIO 14 |
-
-| L_EN | GPIO 19 |
-
-| GND | GND |
-
-| VCC | 5V |
+| IBT-2 Pin | ESP32   |
+| --------- | ------- |
+| RPWM      | GPIO 32 |
+| LPWM      | GPIO 33 |
+| R_EN      | GPIO 14 |
+| L_EN      | GPIO 19 |
+| GND       | GND     |
+| VCC       | 5V      |
 
 Motor 2 connects to `M+` and `M-`.
+
+
 
 ## Power
 
