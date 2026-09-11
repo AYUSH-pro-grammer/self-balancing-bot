@@ -41,7 +41,7 @@ I wanted to build a project that combines design, electronics, sensors, motor co
 
 ## Wiring
 
-![Circuit diagram](image/circuit.png)
+<!-- ![Circuit diagram](image/circuit.png) -->
 ![Circuit diagram](image/circuit2.png)
 
 ## Cad
