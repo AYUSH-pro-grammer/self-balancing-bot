@@ -18,7 +18,6 @@ Robot tilts → IMU senses changes → ESP32 calculates angle
 
 ```
 
-![Robot standing](image/standing.png)
 
 ## Why I built it?
 
